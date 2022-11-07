@@ -1,29 +1,29 @@
 package Clases;
 
 public class cLinia extends cObjecteGeometric{
-	public int aPuntInicial;
-	public int aPuntFinal;
+	cPunto aPuntInicial;
+	cPunto aPuntFinal;
 	
-	public cLinia(int aNumeroDimensiones , int aPuntInicial, int aPuntFinal) {
+	public cLinia(int aNumeroDimensiones , cPunto aPuntInicial, cPunto aPuntFinal) {
 		super(aNumeroDimensiones);
 		this.aPuntInicial = aPuntInicial;
 		this.aPuntFinal = aPuntFinal;
 		
 	}
 
-	public int getaPuntInicial() {
+	public cPunto getaPuntInicial() {
 		return aPuntInicial;
 	}
 
-	public void setaPuntInicial(int aPuntInicial) {
+	public void setaPuntInicial(cPunto aPuntInicial) {
 		this.aPuntInicial = aPuntInicial;
 	}
 
-	public int getaPuntFinal() {
+	public cPunto getaPuntFinal() {
 		return aPuntFinal;
 	}
 
-	public void setaPuntFinal(int aPuntFinal) {
+	public void setaPuntFinal(cPunto aPuntFinal) {
 		this.aPuntFinal = aPuntFinal;
 	}
 	public void Mostrar() {

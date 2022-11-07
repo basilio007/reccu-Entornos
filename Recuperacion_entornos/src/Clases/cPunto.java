@@ -1,11 +1,11 @@
 package Clases;
 
 public class cPunto extends cObjecteGeometric{
-	public float aCoordenadaX;
-	public float aCoordenadaY;
-	public float aCoordenadaZ;
+	 cPunto aCoordenadaX;
+	 cPunto aCoordenadaY;
+	 cPunto aCoordenadaZ;
 	
-	public cPunto(int aNumeroDimensiones, float aCoordenadaX, float aCoordenadaY, float aCoordenadaZ) {
+	public cPunto(int aNumeroDimensiones, cPunto aCoordenadaX, cPunto aCoordenadaY, cPunto aCoordenadaZ) {
 		super(aNumeroDimensiones);
 		
 		this.aCoordenadaX = aCoordenadaX;
@@ -14,27 +14,27 @@ public class cPunto extends cObjecteGeometric{
 		
 	}
 
-	public float getaCoordenadaX() {
+	public cPunto getaCoordenadaX() {
 		return aCoordenadaX;
 	}
 
-	public void setaCoordenadaX(float aCoordenadaX) {
+	public void setaCoordenadaX(cPunto aCoordenadaX) {
 		this.aCoordenadaX = aCoordenadaX;
 	}
 
-	public float getaCoordenadaY() {
+	public cPunto getaCoordenadaY() {
 		return aCoordenadaY;
 	}
 
-	public void setaCoordenadaY(float aCoordenadaY) {
+	public void setaCoordenadaY(cPunto aCoordenadaY) {
 		this.aCoordenadaY = aCoordenadaY;
 	}
 
-	public float getaCoordenadaZ() {
+	public cPunto getaCoordenadaZ() {
 		return aCoordenadaZ;
 	}
 
-	public void setaCoordenadaZ(float aCoordenadaZ) {
+	public void setaCoordenadaZ(cPunto aCoordenadaZ) {
 		this.aCoordenadaZ = aCoordenadaZ;
 	}
 public void Mostrar() {
