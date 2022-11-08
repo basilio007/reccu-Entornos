@@ -20,9 +20,10 @@ public int getaTriángulos() {
 public void setaTriángulos(int aTriángulos) {
 	this.aTriángulos = aTriángulos;
 }
-public void mostrar() {
-	System.out.println(this.aNumero_Triángulos);
-	System.out.println(this.aTriángulos);
-	System.out.println(super.aNumeroDimensiones);
+
+//metodo para la devolucion del tamaño de los ojetos
+public static int devucion(int aNumero_Triángulos, int aTriángulos) {
+	return aNumeroDimensiones;
+	
 }
 }

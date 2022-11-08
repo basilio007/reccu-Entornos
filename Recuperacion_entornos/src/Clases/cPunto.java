@@ -37,10 +37,11 @@ public class cPunto extends cObjecteGeometric{
 	public void setaCoordenadaZ(float aCoordenadaZ) {
 		this.aCoordenadaZ = aCoordenadaZ;
 	}
-public void Mostrar() {
-	System.out.println(this.aCoordenadaX);
-	System.out.println(this.aCoordenadaY);
-	System.out.println(this.aCoordenadaZ);
-	System.out.println(super.aNumeroDimensiones);
+
+
+//metodo para la devolucion del tamaño de los ojetos
+public static int devucion(float aCoordenadaX, float aCoordenadaY, float aCoordenadaZ) {
+	return 0;
+	
 }
 }

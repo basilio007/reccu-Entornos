@@ -31,5 +31,9 @@ public class cLinia extends cObjecteGeometric{
 		System.out.println(this.aPuntFinal);
 		System.out.println(super.aNumeroDimensiones);
 	}
-
+	//metodo para la devolucion del tamaño de los ojetos
+	public static int devucion(cPunto aPuntInicial, cPunto aPuntFinal) {
+		return aNumeroDimensiones;
+		
+	}
 }
