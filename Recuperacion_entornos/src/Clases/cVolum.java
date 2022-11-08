@@ -1,8 +1,8 @@
 package Clases;
 
 public class cVolum extends cObjecteGeometric{
-	public int aNúmeroCares;
-	public int aCares;
+	 int aNúmeroCares;
+	 int aCares;
 	
 	public cVolum(int aNumeroDimensiones, int aNúmeroCares, int aCares) {
 		super(aNumeroDimensiones);

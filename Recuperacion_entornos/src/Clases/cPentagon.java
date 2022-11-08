@@ -1,9 +1,9 @@
 package Clases;
 
 public class cPentagon  extends cPlan{
-public cPentagon(int aNumeroDimensiones,int aNúmeroLados, int aLados) {
+public cPentagon(int aNumeroDimensiones,cLinia aNúmeroLados, cLinia[] aLados) {
 		
-		super(aNumeroDimensiones, aNúmeroLados, aLados);
+	super(aNumeroDimensiones, aNúmeroLados, aLados);
 		
 		
 	}

@@ -1,8 +1,8 @@
 package Clases;
 
 public class cVolumTriangulizado extends cObjecteGeometric{
-public int aNumero_Triángulos;
-public int aTriángulos;
+ int aNumero_Triángulos;
+ int aTriángulos;
 public cVolumTriangulizado(int aNumeroDimensiones, int aNumero_Triángulos, int aTriángulos) {
 	super(aNumeroDimensiones);
 	this.aNumero_Triángulos = aNumero_Triángulos;
