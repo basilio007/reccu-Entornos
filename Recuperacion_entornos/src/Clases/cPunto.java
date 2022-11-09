@@ -12,6 +12,8 @@ public class cPunto extends cObjecteGeometric{
 		this.aCoordenadaY = aCoordenadaY;
 		this.aCoordenadaZ = aCoordenadaZ;
 		
+		// creacion de objeto
+		cPunto vO4= new cPunto(aNumeroDimensiones, aCoordenadaZ, aCoordenadaZ, aCoordenadaZ);
 	}
 
 	public float getaCoordenadaX() {

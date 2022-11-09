@@ -7,6 +7,8 @@ public static int aNumeroDimensiones;
 public cObjecteGeometric(int aNumeroDimensiones) {
 	this.aNumeroDimensiones=aNumeroDimensiones;
 	
+	// creacion de objeto
+	cObjecteGeometric vO3 = new cObjecteGeometric(aNumeroDimensiones);
 }
 
 //metodo para la devolucion del tamaño de los ojetos

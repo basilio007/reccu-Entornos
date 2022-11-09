@@ -5,6 +5,9 @@ public class cTriangle extends cPlan{
 		
 		super(aNumeroDimensiones, aNúmeroLados, aLados);
 		
+		// creacion de objeto
+		cTriangle vO1 = new cTriangle(aNumeroDimensiones, aNúmeroLados, aLados);
+		
 		
 	}
 
